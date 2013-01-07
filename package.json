@@ -1,0 +1,33 @@
+{
+  "name": "sample-dashboard.andbang.com",
+  "version": "0.0.1",
+  "homepage": "https://sample-dashboard.andbang.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:henrikjoreteg/sample-dashboard.andbang.com.git"
+  },
+  "description": "Mind-meldification for teams",
+  "dependencies": {
+    "backbone": "",
+    "underscore": "",
+    "express": "",
+    "stitch": "",
+    "andbang-express-auth": "",
+    "precommit-hook": "",
+    "clientmodules": "",
+    "templatizer": "",
+    "andlog": "",
+    "getconfig": "",
+    "andbang": ""
+  },
+  "clientmodules": [
+    "andlog",
+    "backbone",
+    "underscore",
+    "andbang"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "node node_modules/clientmodules/install.js"
+  }
+}
