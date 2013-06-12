@@ -1,7 +1,0 @@
-{
-  "auth": {
-    "clientId": "YOUR CLIENT ID, (go to developer.andbang.com)",
-    "clientSecret": "YOUR CLIENT SECRET"
-  },
-  "port": 3003
-}
